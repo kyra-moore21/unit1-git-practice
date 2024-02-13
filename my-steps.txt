@@ -1,85 +1,143 @@
 ### Step 2A
-
+/c/Users/kyram
 
 ### Step 2B
-
+$ cd /c/Users/kyram/OneDrive/Desktop
 
 ### Step 2C
+$ cd unit1-git-practice/
 
 
 ### Step 2D
+bash: /c/Users/kyram/OneDrive/Desktop/unit1-git-practice/: Is a directory
 
 
 ### Step 2E
-
+ls
 
 ### Step 2F
+my-steps.txt
 
 
 ### Step 2G
+ cd ~
 
 
 ### Step 2H
-
+/c/Users/kyram
 
 ### Step 2I
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+ Credential
+ Documents/
+ Downloads/
+ Favorites/
+ Generic
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ User
+ Videos/
+ Windows
+ eclipse/
+ eclipse-workspace/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
 
 
 ### Step 2J
-
+cd ~
 
 ### Step 2K
-
+cd OneDrive/Desktop/unit1-git-practice/
 
 
 ### Step 3A
-
+mkdir veggies
+mkdir meats
+mkdir desserts
 
 ### Step 3B
-
+mv desserts sweets
 
 ### Step 3C
-
+mkdir proteins
 
 ### Step 3D
-
+mv meats proteins
 
 ### Step 3E
-
+cd veggies/
+touch carrot.txt
+touch pea.txt
 
 ### Step 3F
-
+cd .. 
+cd sweets/
+touch cookie.txt
 
 ### Step 3G
-
+mv cookie.txt donut.txt
 
 ### Step 3H
+cd .. 
+touch thing.txt
+
 
 
 ### Step 3I
-
+cp thing.txt tofu.txt
 
 ### Step 3J
-
+mv tofu.txt proteins
 
 ### Step 3K
-
+cp thing.txt crab.txt
+mv crab.txt proteins
+cd proteins/ 
+mv crab.txt meats
 
 ### Step 3L
-
+cd ..
+rm things.txt
 
 ### Step 3M
+cp -r veggies plants
+
 
 
 ### Step 3N
-
+mkdir drinks
+rm -r drinks
 
 
 ### Step 4
-
-
+git init
+git add .
+git commit - m 'first commit'
 ### Step 5
-
+git remote add origin https://github.com/kyra-moore21/unit1-git-practice.git
+git branch -M main
+git push -u origin main
 
 ### Step 6
 
